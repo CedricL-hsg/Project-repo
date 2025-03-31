@@ -11,4 +11,14 @@ einkommen = st.slider("Monatliches Einkommen (CHF)",
                       step=500
                       )
 
-risikoprofil = st.selectbox("Risikoprofil", ["konservativ", "ausgewogen", "dynamisch"])
+risikoprofil = st.selectbox("Risikoprofil", ["konservativ", "ausgewogen", "wachstum"])
+
+
+st.subheader("Deine Angaben:")
+st.write(f"💰 Startkapital: CHF {startkapital}")
+st.write(f"📥 Monatliches Einkommen: CHF {einkommen}")
+st.write(f"⚖️ Risikoprofil: {risikoprofil}")
+
+# Visualisierung?
+
+
